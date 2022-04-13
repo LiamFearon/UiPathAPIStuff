@@ -1,12 +1,8 @@
 Imports System.IO
 Imports System.Net
 Imports System.Text
-Imports System.Configuration
 Imports System.Text.RegularExpressions
-Imports Newtonsoft.Json
-
-
-
+Imports System
 
 Module Module1
 
@@ -132,7 +128,7 @@ Module Module1
 
     Sub DeserialiseJSON(ByVal jstr As String)
 
-        Dim obj = JsonConvert.DeserializeObject(Of Container)(jstr)
+        'Dim obj = JsonConvert.DeserializeObject(Of Container)(jstr)
 
         Console.WriteLine()
 
